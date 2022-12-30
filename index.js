@@ -3,12 +3,6 @@ const form = document.querySelector('.form');
 const input = document.querySelector('.input-todo');
 const ul = document.querySelector('.todo-list');
 const todos = [
-    // {
-    //     job: "Lau nhà"
-    // },
-    // {
-    //     job: "Làm bài tập"
-    // },
 
 ];
 
@@ -31,7 +25,6 @@ function addTodo(todo){
 
     li.querySelector('i').addEventListener('click', function(){
         li.classList.toggle('remove')
-        // console.log(this)
     })
 
 

@@ -7,17 +7,13 @@
 body{
     background-image: linear-gradient(to right, #4daf54, #3d8880);
     min-height: 100vh;
-    /* height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+   
 }
 
 
 .app{
     background-color: #fff;
     width: 420px;
-    /* padding: 10px 20px; */
     margin: 100px auto;
     border-radius: 10px;
 }
@@ -28,12 +24,6 @@ body{
     border: none;
     outline: none;
     font-size: 24px;
-}
-
-.heading{
-    text-align: center;
-    color: #fff;
-    margin-top: 20px;
 }
 
 .btn{
